@@ -1,1 +1,1 @@
-docker run -v $HOME/.aws:/root/.aws -ti --rm jpbarto/boto3
+docker run -v $HOME/.aws:/root/.aws -v $PWD:/root/dev:rw -ti --rm jpbarto/boto3
